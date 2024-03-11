@@ -8,6 +8,8 @@ def compute(expression):
         return num0 + num1
     else:
         print('unknown operator!')
+    elif operator == '*':
+        return num0 * num1
         return None
     
 
